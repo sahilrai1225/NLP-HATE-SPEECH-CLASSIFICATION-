@@ -5,6 +5,13 @@ __pycache__/
 
 # C extensions
 *.so
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+nlpvenv/
+
 
 # Distribution / packaging
 .Python
@@ -205,3 +212,5 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+artifacts/*
