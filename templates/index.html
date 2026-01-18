@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hate Speech Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>🚨 Hate Speech Detection</h1>
+    <p>Enter a sentence to check whether it contains hate speech</p>
+
+    <form action="/predict" method="post">
+        <textarea name="text" placeholder="Type your text here..." required></textarea>
+        <button type="submit">Analyze Text</button>
+    </form>
+</div>
+
+</body>
+</html>
