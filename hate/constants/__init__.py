@@ -63,3 +63,6 @@ APP_HOST="0.0.0.0"
 APP_PORT=8050
 
 
+## MODEL PUSHER CONSTANTS
+# all required  we have above
+

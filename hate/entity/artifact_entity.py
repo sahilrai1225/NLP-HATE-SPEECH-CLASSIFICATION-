@@ -20,3 +20,7 @@ class ModelTrainerArtifacts: #its  artifacts will be  used for model evalution s
 @dataclass
 class ModelEvaluationArtifacts:
     is_model_accepted: bool
+
+@dataclass
+class ModelPusherArtifacts:
+    bucket_name:str

@@ -77,7 +77,7 @@ class DataTransformation:
     def concat_data_cleaning(self,words):
 
         try:
-            logging.info("Entered into the concat_data_cleaning func")
+            
 
             #lets  apply stemming and stopwords on the data
 
@@ -94,7 +94,7 @@ class DataTransformation:
             words=" ".join(words)
             words=[stemmer.stem(word) for word in words.split(" ")]
             words=" ".join(words)
-            logging.info("Exited the concat_data_cleaning_funct")
+
             return words
         
         except Exception as e:
