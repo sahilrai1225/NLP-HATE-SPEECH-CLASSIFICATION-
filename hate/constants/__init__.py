@@ -15,5 +15,16 @@ TWEET="tweet"  ## independent
 
 ## DATA ingestion constants
 DATA_INGESTION_ARTIFACTS_DIR="DataIngestionArtifacts"
-DATA_INGESTION_IMBALANCE_DATA_DIR="imbalace_data.csv"
+DATA_INGESTION_IMBALANCE_DATA_DIR="imbalanced_data.csv"
 DATA_INGESTION_RAW_DATA_DIR="raw_data.csv"
+
+
+## DATA transformation constants
+DATA_TRANSAFORMATION_ARTIFACTS_DIR="DataTransformationArtifacts"
+TRANSFORMED_FILE_NAME="final.csv"
+DATA_DIR="data"
+ID="id"
+AXIS=1
+INPLACE=True
+DROP_COLUMNS=["Unnamed: 0","count","hate_speech","offensive_language","neither"]
+CLASS="class"
